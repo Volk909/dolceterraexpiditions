@@ -1,0 +1,28 @@
+@font-face {
+    src: url("../fonts/Inter/Inter-Bold.ttf") format("truetype"); 
+    font-family: "InterBold";
+} 
+@font-face {
+    src: url("../fonts/Inter/Inter-Light.ttf") format("truetype"); 
+    font-family: "InterLight";
+} 
+@font-face {
+    src: url("../fonts/Inter/Inter-ExtraBold.ttf") format("opentype"); 
+    font-family: "InterExtraBold";
+}
+@font-face {
+    src: url("../fonts/Inter/Inter-Black.otf") format("opentype"); 
+    font-family: "InterBlack";
+}
+@font-face {
+    src: url("../fonts/Inter/Inter-Medium.ttf") format("truetype"); 
+    font-family: "InterMedium";
+} 
+@font-face {
+    src: url("../fonts/Inter/Inter-Regular.ttf") format("truetype"); 
+    font-family: "InterRegular";
+} 
+@font-face {
+    src: url("../fonts/Inter/Inter-Italic.ttf") format("truetype"); 
+    font-family: "InterItalic";
+} 
