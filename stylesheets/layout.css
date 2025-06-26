@@ -475,7 +475,6 @@ input:focus, textarea:focus {
   margin-top: auto;
   padding-bottom: 2vw;
   padding-top: 20px;
-  cursor: pointer;
 }
 .price-right {
   text-align: right;
