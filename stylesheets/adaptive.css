@@ -184,6 +184,45 @@
     width: 100%;
     height: auto;
   }
+  .keychain-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 15px;
+  }
+  
+  .keychain-container img {
+    width: 80%;
+    max-width: 300px;
+  }
+  
+  .keychain_description {
+    padding-left: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .keychain_title {
+    font-size: 32px;
+  }
+  
+  .keychain_about,
+  .keychain_price {
+    font-size: 24px;
+    padding: 20px 0;
+  }
+  
+  .keychain_price {
+    padding-bottom: 50px;
+  }
+  
+  .buy-btn {
+    width: 100%;
+    max-width: 250px;
+    margin-bottom: 50px;
+  }
    /* мероприятия */
   .events-filter{
     display: flex;
@@ -251,6 +290,7 @@
     font-size: 36px;
     margin-bottom: 15px;
   }
+
   /* футер */
   footer h3{
     font-size: 42px;
