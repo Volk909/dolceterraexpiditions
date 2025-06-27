@@ -26,11 +26,11 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
     const container = document.querySelector('.drop-candy');
     const imageUrls = [
-        '../images/bg_sweets1.png',
-        '../images/bg_sweets2.png',
-        '../images/bg_sweets3.png',
-        '../images/bg_sweets4.png',
-        '../images/bg_sweets5.png'
+        'images/bg_sweets1.png',
+        'images/bg_sweets2.png',
+        'images/bg_sweets3.png',
+        'images/bg_sweets4.png',
+        'images/bg_sweets5.png'
     ];
     // Параметры анимации
     const minSize = 30;
