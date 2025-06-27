@@ -6,6 +6,7 @@
 		<link rel="stylesheet" href="stylesheets/style.css" />
 		<link type="image/x-icon" href="images/favicon.svg" rel="icon">
 		<script src="javascripts/main.js"></script>
+		<script src="javascripts/shop.js"></script>
 		<title>DeT — Магазин</title>
 	</head>
 <body>
@@ -45,13 +46,33 @@
 				</div>
 			</div>
 			<div class="product-list_1">
-				<div class="product-images">
+				<div class="product-images desktop">
 					<a href="404.html">
 					<img src="images/item1.png" alt="Мерч" class="left-image">
 					</a>
 					<a href="404.html">
 					<img src="images/item2.png" alt="Мерч" class="right-image">
 					</a>
+				</div>
+				<div class="product-images mobile">
+					<div class="image-slider mobile">
+						<div class="slider-container">
+						<a href="404.html" class="slide">
+							<img src="images/item1.png" alt="Product image 1">
+						</a>
+						<a href="404.html" class="slide">
+							<img src="images/item2.png" alt="Product image 2">
+						</a>
+						</div>
+						
+						<div class="slider-controls">
+						<p class="slider-prev"><</p>
+						<div class="slider-counter">
+							<span class="current_slide">1</span>/<span class="total">2</span>
+						</div>
+						<p class="slider-next">></p>
+						</div>
+					</div>
 				</div>
 				<div class="product-info">
 					<h3 class="product-title">Шопперы <br> в ассортименте</h3>
