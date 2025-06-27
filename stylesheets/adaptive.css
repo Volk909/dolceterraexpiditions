@@ -189,6 +189,7 @@
     align-items: center;
     gap: 30px;
     padding: 20px 15px;
+    heigh: auto;
   }
   
   .keychain-container img {
