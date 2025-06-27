@@ -41,6 +41,9 @@
   .logo_desktop{
     display: none;
   }
+  .form{
+    max-width: 60%;
+  }
   .footer-columns{
     flex-direction: column;
   }
