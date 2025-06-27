@@ -549,6 +549,7 @@ input:focus, textarea:focus {
   justify-content: center;
   gap: 4vw;
   padding: 100px 0 100px 0;
+  height: 60vh;
 }
 .keychain-container img{
   border-radius: 20px;
