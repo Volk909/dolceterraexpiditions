@@ -152,6 +152,55 @@
   .product-images img {
     width: 100%;
   }
+  /* ------------- */
+  /* слайдер */
+  .product-images {
+    width: 100%;
+    overflow: hidden;
+  }
+  .image-slider {
+  position: relative;
+  }
+  .slider-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .slider-container {
+    display: flex;
+    transition: transform 0.3s ease;
+  }
+  .slider-container img {
+    border-radius: 15px;
+  }
+  .slide {
+    flex: 0 0 100%;
+    min-width: 100%;
+  }
+  .slider-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 40px 0;
+    gap: 15px;
+    font-family: 'InterRegular';
+  }
+  .slider-prev,
+  .slider-next {
+    background: none;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+    padding: 0 5px;
+  }
+  .slider-counter {
+    font-size: 30px;
+  }
+  .slider-counter .current_slide {
+    color: #CA43FF;
+  }
+  /* ------------- */
   .product-info {
     width: 100%;
   }
@@ -189,7 +238,7 @@
     align-items: center;
     gap: 30px;
     padding: 20px 15px;
-    heigh: auto;
+    height: auto;
   }
   
   .keychain-container img {
@@ -245,9 +294,6 @@
   }
   .poster:last-child {
     margin-bottom: 0;
-  }
-  .mobile{
-    display: block;
   }
   /* новости */
   .news-container {
@@ -330,5 +376,8 @@
   }
   .error {
     background-image: url("../images/bg-404mobile.png");
+  }
+  .mobile{
+    display: block;
   }
 }
