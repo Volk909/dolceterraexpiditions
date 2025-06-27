@@ -24,6 +24,9 @@ body {
 .error{
   background-image: url("../images/bg-404page.png");
 }
+.mobile{
+  display: none;
+}
 header {
   display: flex;
   justify-content: space-between;
