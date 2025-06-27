@@ -618,12 +618,14 @@ footer h3{
   font-size: 20px;
   padding-bottom: 50px;
 }
+.footer-column-2{
+  padding-left: 16px;
+  justify-content: left;
+}
 .footer-column-2 p{
   padding-bottom: 20px;
 }
-.footer-column-2{
-  padding-left: 16px;
-}
+
 .footer-logo{
   padding: 42px;
 }
